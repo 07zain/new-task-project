@@ -1,0 +1,45 @@
+.card {
+    position: relative; /* To position the three-dot menu icon absolutely within the card */
+    display: flex;
+    width: 310px;
+    height: 80px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    font-size: 12px; /* Added to reduce the overall font size */
+  
+  
+  .image {
+    width: 60px;
+    padding: 10px;
+    object-fit: cover;
+  }
+  
+  .info {
+    flex: 1;
+    padding: 5px; /* Reduced padding */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  h3 {
+    color: rgb(89, 154, 252);
+    margin: 0;
+    font-size: 14px; /* Reduced font size for heading */
+  }
+  
+  p {
+    margin: 0;
+    font-size: 12px; /* Consistent smaller font size for paragraphs */
+  }
+  
+  .menuIcon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Increased font size for the icon */
+  }
+}  

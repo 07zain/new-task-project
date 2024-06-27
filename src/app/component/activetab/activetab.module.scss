@@ -1,0 +1,75 @@
+.header {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    border-bottom: 3px solid lightgray;
+  }
+  
+  .tabs {
+    display: flex;
+  }
+  
+  .tab {
+    font-size: larger;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .active {
+   border-radius: 5px;
+   background-color: rgb(228, 228, 228);
+  }
+  
+  .searchContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .searchInput {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px 20px 10px 40px;
+    border: 1px solid grey;
+    border-radius: 4px;
+  }
+  
+  .iconButton {
+    margin-left: 10px;
+    background-color: white;
+    border: 1px solid grey;
+    padding: 5px 10px 5px 10px;
+    border-radius: 4px;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px; /* Increase icon size */
+  }
+  .icons{
+    margin-left: 10px;
+    background-color: white;
+    border: none;
+    padding: 5px ;
+    border-radius: 4px;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; /* Increase icon size */
+  }
+  .icon{
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 314px;
+  }

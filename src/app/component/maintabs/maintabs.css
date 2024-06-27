@@ -1,0 +1,34 @@
+
+.header-with-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* border-bottom: 1px solid lightgrey; */
+  }
+  
+  .header-with-buttons h1 {
+    margin: 0;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button {
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: 1px solid lightgrey;
+    cursor: pointer;
+  }
+  
+  .white-bg {
+    background-color: white;
+  }
+  
+  .blue-bg {
+    background-color: blue;
+    color: white;
+  }
+  

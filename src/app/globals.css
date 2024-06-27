@@ -1,0 +1,18 @@
+.body{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box as const;
+  font-family: Arial, sans-serif;
+}
+
+.mainContent {
+  padding: 5px 20px 0 250px;
+
+}
+
+.homepage {
+  padding: 20px;
+}
+.divs {
+  margin-top: 20px;
+}

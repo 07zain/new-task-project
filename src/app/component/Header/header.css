@@ -1,0 +1,82 @@
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+
+
+header + header {
+  margin-top: 50px;
+}
+
+.header_c {
+  border-bottom: 2px solid lightgray;
+  background: #fff;
+}
+.header_c .container {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  max-width: none;
+}
+.area_logo_header_c {
+  display: flex;
+  align-items: center;
+}
+
+.area_logo_header_c .copy {
+  font-weight: bold;
+  display: flex;
+  color: blue;
+    font-size: x-large;
+    font-style: italic;
+    margin: 0 0 0 30px;
+}
+
+.area_nav_header_c {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  flex: auto;
+  min-width: 10px;
+}
+
+.list_nav_header_c {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.list_nav_header_c > li + li {
+  margin-left: 40px;
+}
+
+.list_nav_ico_header {
+  font-size: 22px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  margin-left: auto;
+}
+.list_nav_ico_header > li + li {
+  margin-left: 10px;
+}
+.list_nav_ico_header a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-size: contain !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+}
+
+
+
+
+
+
