@@ -16,15 +16,15 @@ const Header =()=>{
   <nav className="area_nav_header_c">
   
     <ul className="list_nav_ico_header">
-      <li className="search"><a href=""><FaCompressArrowsAlt />
+      <li className="search"><a className='a' href=""><FaCompressArrowsAlt />
 </a></li>
-      <li className="favorite"><a href=""><FaRegMoon />
+      <li className="favorite"><a className='a' href=""><FaRegMoon />
 </a></li>
-      <li className="cart"><a href=""><TiPlus /></a>
+      <li className="cart"><a className='a' href=""><TiPlus /></a>
 </li>
-      <li className="search"><a href=""><MdSettings /></a>
+      <li className="search"><a className='a' href=""><MdSettings /></a>
 </li>
-      <li className="favorite"><a href=""><FaRegCircleUser />
+      <li className="favorite"><a className='a' href=""><FaRegCircleUser />
 </a></li>
     </ul>
   </nav>
