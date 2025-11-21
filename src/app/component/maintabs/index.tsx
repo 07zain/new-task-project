@@ -2,7 +2,7 @@
 import React from 'react';
 import { FaDownload, FaUpload, FaEllipsisV, FaPlus } from 'react-icons/fa';
 import { PiToggleLeftFill } from 'react-icons/pi';
-import './maintabs.css';
+import './maintabs.module.css';
 
 
 const MainTabs: React.FC = () => {
