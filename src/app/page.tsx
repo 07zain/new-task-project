@@ -2,7 +2,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { FaPencilAlt, FaTrash, FaChevronDown } from 'react-icons/fa';
-import './component/producttable/ProductTable.css';
+import './component/producttable/ProductTable.module.css';
 import ActiveTabBar from './component/activetab';
 import MainTabs from './component/maintabs';
 import Pagination from './component/pagination'

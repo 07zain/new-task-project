@@ -4,7 +4,7 @@ import { FaRegCircleUser, FaRegMoon } from "react-icons/fa6";
 import { MdSettings } from "react-icons/md";
 import { TiPlus } from "react-icons/ti";
 import { FiMenu } from 'react-icons/fi';
-import './header.css'
+import './header.module.css'
 const Header =()=>{
     return(
 <header className="header_c">

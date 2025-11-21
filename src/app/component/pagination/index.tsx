@@ -1,6 +1,6 @@
 
 import React from 'react';
-import './Pagination.css';
+import './Pagination.module.css';
 import { FaGreaterThan, FaLessThan } from 'react-icons/fa6';
 
 interface PaginationProps {

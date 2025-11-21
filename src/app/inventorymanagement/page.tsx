@@ -1,7 +1,7 @@
 import React from 'react';
 import ProductList from '../component/productlist';
 import ActiveTabBar from '../component/activetab';
-import './inventory.css'
+import './inventory.module.css'
 import MainTabs from '../component/maintabs';
 const Water = [
   { image: 'https://www.bigbasket.com/media/uploads/p/l/40162837_2-milton-pacific-pet-fridge-plastic-water-bottle-blue.jpg', name: 'Milton Pacific Blue', price:199, stock:" 10 Units" },
