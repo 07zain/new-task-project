@@ -117,7 +117,7 @@ const HomePage: React.FC<ProductTableProps> = ({  }) => {
             <td><input type="checkbox" /></td>
             <td>
               <div className="product-info">
-                <img src={product.image} alt={product.name} />
+                <img className='img' src={product.image} alt={product.name} />
                 <div>
                   <p style={{color:"blue"}}>{product.name}</p>
                   <small>{product.description}</small>
